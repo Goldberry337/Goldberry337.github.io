@@ -1,0 +1,67 @@
+body {
+    background-color: black; /* Чёрный фон */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+img {
+    border: 3px solid #ff0000;
+}
+
+/* Красная кнопка "РАБОТАЕМ БРАТЬЯ!" */
+button {
+    background: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+/* Зелёная кнопка "Купить" */
+button.buy-button {
+    background: #00ff00 !important; 
+    text-shadow: 0 0 3px black;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+/* Стиль для содержимого pop-up */
+.popup-content {
+  background: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 50%;
+  border-radius: 5px;
+  position: relative;
+}
+
+/* Стиль для кнопки закрытия */
+.close {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Стиль для кликабельного текста */
+.open-popup {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
